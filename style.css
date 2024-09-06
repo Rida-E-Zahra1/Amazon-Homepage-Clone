@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+/*------------------------------------NAV BAR----------------------------------*/
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* ---------------Logo Box--------------- */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin: 1px;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+/* ----------------Address Box-------------- */
+.add-pFirst {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-pSecond {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    /* display: inline-block; */
+    margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+/* ----------------Search Box---------------- */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 620px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+}
+.nav-search:hover {
+    border: 2px solid orange
+}
+.search-select {
+    background-color: #E6E6E6;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 4px; /*rounding specific corner*/
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 100%; /*search bar will take remaining extra space*/
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center; /*horizontally center*/
+    align-items: center;     /*vertically center*/
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+/* ----------------Language Box----------------- */
+.nav-language {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag-image {
+    width: 20px;
+    height: 14px;
+}
+.lang-p {
+    font-size: 0.85rem;
+    margin-left: 3px;
+}
+.arrow-icon {
+    color: #CCCCCC;
+    margin-left: 2px;
+}
+/* ----------------Sign in Box-------------- */
+ .nav-font1 {
+    font-size: 0.85rem;
+ }
+ .signin-inner {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /* ----------------Order Box--------------- */
+.nav-font2 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* -----------------Cart Box---------------- */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/*------------------------------------PANEL----------------------------------*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*--------------------All Box------------------*/ 
+.panel-all {
+    font-size: 1rem;
+    font-weight: 700;
+}
+/*------------------Options Box----------------*/ 
+.panel-ops a{
+    display: inline;
+    font-size: 1rem;
+    padding-right: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.panel-ops {
+    width: 92%;
+}
+
+/*--------------------------------Hero Section-------------------------------*/
+.hero-section {
+    background-image: url("hero_image2.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-color: white;
+    height: 40px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    margin-bottom: 35px;
+}
+.hero-msg a{
+    color: #007180;
+    text-decoration: none;
+}
+
+/*--------------------------------Shop Section-------------------------------*/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;   /*bcz 8 boxes aik hi line mn aa rhy thy to un ko rows mn divide kr diya*/
+    justify-content: space-evenly;
+    background-color: #e2e7e2;
+}
+.box {
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 15px 15px 15px;
+    margin-top: 1rem;
+}
+.box a{
+    text-decoration: none;
+    color: #007180;
+}
+.box-img {
+    height: 300px;
+    margin: 15px 0px 15px 0px;
+    background-size: cover;
+    background-position:center center; /*amazing! sets full image without cutting it*/
+}
+
+/*-------------------------------------Footer Section---------------------------*/
+
+/*-------------Footer panel 1---------------*/
+.foot-panel1 {
+    height: 50px;
+    font-size: 0.90rem;
+    color: white;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+/*-------------Footer panel 2---------------*/
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+ul a {
+    display: block;
+    text-decoration: none;
+    color: #DDDDDD;
+    margin-top: 15px;
+    font-size: 0.85rem;
+}
+ul p {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+/*-------------Footer panel 3---------------*/
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    height: 80px;
+    border-top: 0.5px solid #37475a;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*-------------Footer panel 4---------------*/
+.foot-panel4 {
+    background-color: #0F1111;
+    color: white;
+    height: 100px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; 
+    ye is liye use nhi kiya is baar bcz is se dono lines(divs) same line mn show hota*/
+}
+.pages a{
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.copyright {
+    font-size: 0.75rem;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.pages {
+    text-align: center;
+    padding-top: 25px;
+}
